@@ -1,0 +1,257 @@
+.bc_app {
+    width: 500px;
+    margin: 25px auto;
+}
+
+.bc_app2 {
+    background-color: #000;
+    color: #fff;
+    padding: 25px;
+    font-family: raleway;
+    text-transform: lowercase;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.bc_appline {
+    background-color: #fff;
+    height: 1px;
+    width: 95%;
+    margin: 10px auto;
+}
+
+.bc_appbg {
+    background-color: #fff;
+    padding: 10px;
+    height: 430px;
+    border-bottom: 1px solid #746513;
+}
+
+.bc_appmain {
+    position: relative;
+    margin: auto;
+    width: 450px;
+    height: 450px;
+    clear: both;
+}
+
+.bc_appmain2 {
+    float: left;
+}
+
+.bc_appmain2 label {
+    display: block;
+    width: 112.5px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: inder;
+    font-size: 7px;
+    text-align: center;
+    line-height: 100%;
+    letter-spacing: 2px;
+    color: #000;
+    background-color: #fff;
+    border-bottom: 1px solid #000;
+}
+
+.bc_appmain .bc_appmain2 [type=radio] {
+    display: none;
+    baseline-tab-shift: true, retrieve;
+}
+
+.bc_content {
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    top: 28px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    border-bottom: 1px solid #000;
+    -webkit-transform: scale(0);
+    -o-transform: scale(0);
+    -moz-transform: scale(0);
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+}
+
+.bc_appmain .bc_appmain2 [type=radio]:checked~label {
+    background: #fff;
+    border-bottom: 1px solid #746513;
+    color: #746513;
+    z-index: 2;
+}
+
+.bc_appmain .bc_appmain2 [type=radio]:checked~label~.bc_content {
+    z-index: 1;
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -moz-transform: scale(1);
+}
+
+.bc_mainimg {
+    height: 400px;
+    width: 450px;
+    overflow: hidden;
+    border-bottom: 1px solid #000;
+}
+
+.bc_secimg {
+    height: 400px;
+    width: 200px;
+    overflow: hidden;
+    margin-top: -1px;
+}
+
+.bc_sectext {
+    width: 215px;
+    padding: 20px;
+    height: 375px;
+}
+
+.bc_sectext2 {
+    width: 215px;
+    height: 375px;
+    text-align: justify;
+    font-family: times;
+    font-size: 12px;
+    line-height: 115%;
+    color: #000;
+    overflow: auto;
+    padding-right: 5px;
+    white-space: pre-wrap;
+}
+
+.bc_tretext {
+    width: 215px;
+    padding: 20px;
+    height: 375px;
+}
+
+.bc_tretext2 {
+    width: 215px;
+    height: 375px;
+    overflow: auto;
+}
+
+.bc_tretext2 h1 {
+    font-family: raleway;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.bc_tretext2 h2 {
+    font-family: raleway;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #746513;
+    font-size: 11px;
+    padding-left: 5px;
+    margin-top: -5px;
+}
+
+.bc_tretext2 h3 {
+    font-weight: normal;
+    font-family: inder;
+    font-size: 11px;
+    text-align: left;
+    margin-top: -15px;
+    padding-left: 15px;
+}
+
+.bc_treimg {
+    height: 400px;
+    width: 200px;
+    overflow: hidden;
+    margin-top: -1px;
+    margin-left: -8px;
+}
+
+.bc_ship {
+    width: 450px;
+    height: 400px;
+    background-image: url(http://i.imgur.com/yzH2d1q.png);
+}
+
+.bc_ship2 {
+    width: 230px;
+    height: 230px;
+    margin-left: 100px;
+    margin-top: 80px;
+    color: #fff;
+    font-family: verdana;
+    font-size: 10px;
+    line-height: 115%;
+    text-align: justify;
+    padding: 10px;
+    float: left;
+}
+
+.bc_ship3 {
+    width: 230px;
+    height: 230px;
+    overflow: auto;
+    padding-right: 5px;
+}
+
+.merc_cred {
+    text-align: center;
+    font-family: calibri;
+    font-size: 8px;
+    text-transform: uppercase;
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+
+/*********
+  KOI KNOWS CODE
+ *********/
+.bc_sectext2_quote {
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    color: #000;
+    font: 800 8px/10px raleway;
+}
+
+.bc_sectext2_quote::before {
+    content: open-quote;
+}
+
+.bc_sectext2_quote::after {
+    content: close-quote;
+}
+
+.bc_sectext2_quote::before,
+.bc_sectext2_quote::after {
+    font-size: 12px;
+    color: #746513;
+}
+
+.bc_sectext2_pen_label {
+    border-bottom: 1px solid black;
+    text-align: right;
+    letter-spacing: 0.3em;
+    color: #000;
+    font: small-caps 9px/10px raleway;
+    margin-top: 5px;
+}
+
+.bc_sectext2_pen_label::before {
+    content: "―";
+}
+
+.bc_sectext2_breakup {
+    border: 1px solid black;
+    width: 60%;
+}
